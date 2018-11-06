@@ -21,15 +21,15 @@ body, html{
 /* Picture sizing */
 .jpeg1{
     min-height: 80%;
-    background-image: url('../images/lookUp.jpeg');
+    background-image: url('../images/vape2.jpg');
 }
 .jpeg2{
     min-height: 400px;
-    background-image: url('../images/vape1.jpeg');
+    background-image: url('../images/vape3.jpg');
   }
 .jpeg3{
     min-height: 400px;
-    background-image: url('../images/vape2.jpeg');
+    background-image: url('../images/vape1.jpg');
  }
  /* Moving text to center */
  .section{
@@ -38,14 +38,15 @@ body, html{
  }
  /* light color for first section */
  .sec-light{
-     background-color: #f4f4f4;
-     color: #666;
+     background-color: whitesmoke;
+     color: darkgray;
  }
  /* dark color for section */
  .sec-dark{
      background-color: #282e34;
      color: #ddd;
  }
+ /* text sizing and adjustments */
  .paragragh{
      position: absolute;
      top: 50%;
@@ -55,14 +56,15 @@ body, html{
      font-size: 28px;
      letter-spacing: 5px;
      text-transform: uppercase;
-
  }
+ /* border color */
  .border{
-     background-color: #111;
+     background-color: rgb(29, 16, 16);
      color: white;
      padding: 20px;
  }
+ /* border slightly transparent */
  .border.transparent{
      background-color: transparent;
-
  }
+ 
