@@ -1,0 +1,68 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+/* Parralax effect */
+.jpeg1, .jpeg2, .jpeg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* fixed=Parralax effect */
+    background-attachment: fixed;
+}
+/* Picture sizing */
+.jpeg1{
+    min-height: 80%;
+    background-image: url('../images/lookUp.jpeg');
+}
+.jpeg2{
+    min-height: 400px;
+    background-image: url('../images/vape1.jpeg');
+  }
+.jpeg3{
+    min-height: 400px;
+    background-image: url('../images/vape2.jpeg');
+ }
+ /* Moving text to center */
+ .section{
+     text-align: center;
+     padding: 50px 80px;
+ }
+ /* light color for first section */
+ .sec-light{
+     background-color: #f4f4f4;
+     color: #666;
+ }
+ /* dark color for section */
+ .sec-dark{
+     background-color: #282e34;
+     color: #ddd;
+ }
+ .paragragh{
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     color: black;
+     font-size: 28px;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+
+ }
+ .border{
+     background-color: #111;
+     color: white;
+     padding: 20px;
+ }
+ .border.transparent{
+     background-color: transparent;
+
+ }
